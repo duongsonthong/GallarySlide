@@ -49,7 +49,7 @@ compile 'com.duongsonthong.gallarySlide:gallaryslide:1.0'
    ViewPager mainSlider = (ViewPager)findViewById(R.id.main_slide);
   mainSlider.setAdapter(mainSliderAdapter);
   ```
-  set number image visible on Indicator and then set main slide for indicator
+  set the number of images is displayed on Indicator and then set main slide for indicator
   
   ```java
   IndicatorViewPager indicatorViewPager = (IndicatorViewPager)findViewById(R.id.indicator);
