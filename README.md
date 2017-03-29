@@ -1,4 +1,4 @@
-# GallerySlide
+# GallarySlide
 
 ![untitled](https://media.giphy.com/media/PL7fCBouXC4Mg/giphy.gif)
 # Download
