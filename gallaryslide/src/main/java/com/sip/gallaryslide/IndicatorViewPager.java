@@ -1,4 +1,4 @@
-package com.sip.galleryslide.slide_view;
+package com.sip.gallaryslide;
 
 import android.content.Context;
 import android.support.v4.view.ViewPager;
@@ -78,7 +78,7 @@ public class IndicatorViewPager extends ViewPager implements IndicatorAdapter.IF
     };
     public final void moveIndicatorStatic(final int moveTo){
         mSubSilde.removeOnPageChangeListener(indicatorPageChangeListener);
-        mSubSilde.addOnPageChangeListener(new ViewPager.OnPageChangeListener() {
+        mSubSilde.addOnPageChangeListener(new OnPageChangeListener() {
             @Override
             public void onPageScrolled(int position, float positionOffset, int positionOffsetPixels) {
 
@@ -102,7 +102,7 @@ public class IndicatorViewPager extends ViewPager implements IndicatorAdapter.IF
     public final void moveMainStatic(final int moveTo){
         mScrollable = false;
         mMainSlide.clearOnPageChangeListeners();
-        mMainSlide.addOnPageChangeListener(new ViewPager.OnPageChangeListener() {
+        mMainSlide.addOnPageChangeListener(new OnPageChangeListener() {
             @Override
             public void onPageScrolled(int position, float positionOffset, int positionOffsetPixels) {
 

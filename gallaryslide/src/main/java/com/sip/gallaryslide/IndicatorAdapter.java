@@ -1,4 +1,4 @@
-package com.sip.galleryslide.slide_view;
+package com.sip.gallaryslide;
 
 import android.animation.Animator;
 import android.animation.ObjectAnimator;
@@ -14,7 +14,6 @@ import android.widget.ImageView;
 import android.widget.LinearLayout;
 
 import com.nostra13.universalimageloader.core.ImageLoader;
-import com.sip.galleryslide.R;
 
 /**
  * Created by duongsonthong on 8/30/16.
@@ -35,7 +34,7 @@ public class IndicatorAdapter extends PagerAdapter {
 
     private int newPosition;
     private IFitemIndicatorClick mIFitemIndicatorClick;
-    public  IndicatorAdapter (String[] urlArray,int numberPageVisible,IFitemIndicatorClick iFitemIndicatorClick){
+    public IndicatorAdapter(String[] urlArray, int numberPageVisible, IFitemIndicatorClick iFitemIndicatorClick){
         mUrlArray = urlArray;
         mNumberPageVisisble = numberPageVisible;
         mIFitemIndicatorClick = iFitemIndicatorClick;

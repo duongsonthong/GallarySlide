@@ -15,8 +15,8 @@ import com.nostra13.universalimageloader.core.assist.ImageScaleType;
 import com.nostra13.universalimageloader.core.decode.BaseImageDecoder;
 import com.nostra13.universalimageloader.core.download.BaseImageDownloader;
 import com.nostra13.universalimageloader.utils.StorageUtils;
-import com.sip.galleryslide.slide_view.IndicatorViewPager;
-import com.sip.galleryslide.slide_view.MainSliderAdapter;
+import com.sip.gallaryslide.IndicatorViewPager;
+import com.sip.gallaryslide.MainSliderAdapter;
 
 import java.io.File;
 

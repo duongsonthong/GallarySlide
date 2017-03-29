@@ -1,4 +1,4 @@
-package com.sip.galleryslide.slide_view;
+package com.sip.gallaryslide;
 
 import android.support.v4.view.PagerAdapter;
 import android.support.v4.view.ViewPager;
@@ -9,7 +9,6 @@ import android.view.ViewGroup;
 import android.widget.ImageView;
 
 import com.nostra13.universalimageloader.core.ImageLoader;
-import com.sip.galleryslide.R;
 
 
 /**

@@ -1,4 +1,4 @@
-package com.sip.galleryslide.slide_view;
+package com.sip.gallaryslide;
 
 import android.support.v4.view.ViewPager;
 
