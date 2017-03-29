@@ -26,7 +26,6 @@ compile 'com.duongsonthong.gallarySlide:gallaryslide:1.0'
      android:paddingLeft="@dimen/card_padding"
      android:paddingRight="@dimen/card_padding"
      android:paddingStart="@dimen/card_padding"
-     android:layout_weight="1"
      android:layout_below="@id/main_slide"
      android:layout_width="wrap_content"
      android:layout_height="60dp"/>
