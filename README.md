@@ -29,9 +29,9 @@ compile 'com.duongsonthong.gallarySlide:gallaryslide:1.0'
      android:layout_width="wrap_content"
      android:layout_height="60dp"/>
 ```    
-- Config slideshow on MainActivity
+- Configurate slideshow on MainActivity
   
-  creating String array which hold links image, for example
+  Create a String array which hold links image, for example
   ```java
   String[] links = new String[5];
    links[0] = "http://img.f10.giaitri.vnecdn.net/2017/03/28/Kevin-Costner-1490673411_660x0.jpg";
@@ -40,7 +40,7 @@ compile 'com.duongsonthong.gallarySlide:gallaryslide:1.0'
    links[3] = "http://img.f12.giaitri.vnecdn.net/2017/03/28/kevin-costner-4-1490673024_660x0.jpg";
    links[4] = "http://img.f11.giaitri.vnecdn.net/2017/03/28/kevin-costner-5-1490673024_660x0.jpg";
   ```
-  creating MainSliderAdapter with links array above
+  Create MainSliderAdapter with links array above
   ```java
   MainSliderAdapter mainSliderAdapter = new MainSliderAdapter(links);
   ```
