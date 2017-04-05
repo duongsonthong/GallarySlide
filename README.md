@@ -12,7 +12,7 @@ Use Maven :
   <type>pom</type>
 </dependency>
 ```
-u¥Use Gradle:
+Use Gradle:
 ```javascript
 compile 'com.duongsonthong.gallarySlide:gallaryslide:1.0'
 ```
