@@ -3,7 +3,16 @@
 ![untitled](https://media.giphy.com/media/PL7fCBouXC4Mg/giphy.gif)
 # Download
 
-use Gradle:
+Use Maven :
+```xml
+<dependency>
+  <groupId>com.duongsonthong.gallarySlide</groupId>
+  <artifactId>gallaryslide</artifactId>
+  <version>1.0</version>
+  <type>pom</type>
+</dependency>
+```
+u¥Use Gradle:
 ```javascript
 compile 'com.duongsonthong.gallarySlide:gallaryslide:1.0'
 ```
