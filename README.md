@@ -66,9 +66,7 @@ compile 'com.duongsonthong.gallarySlide:gallaryslide:1.0'
   ```
   
 # Demo 
-  You can download my project example above
-  
-  
+  [dowload on Play store](https://play.google.com/store/apps/details?id=com.sip.testmylib)
 
   
   
